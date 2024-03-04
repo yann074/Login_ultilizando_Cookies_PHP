@@ -11,22 +11,21 @@ Este é um simples sistema de login desenvolvido em PHP que utiliza cookies e se
 
 ## Estrutura de Arquivos
 
-- **index.php**: Página de login onde os usuários podem inserir suas credenciais.
-- **auth.php**: Arquivo que processa a autenticação do usuário.
-- **dashboard.php**: Página de dashboard exibida após o login bem-sucedido.
+- **login.php**: Página de login onde os usuários podem inserir suas credenciais.
+- **basico.php**: Arquivo que processa a autenticação do usuário.
+- **basico.php**: Página de dashboard exibida após o login bem-sucedido.
 - **logout.php**: Página para realizar o logout do usuário.
 
 ## Configuração
 
 1. Clone o repositório para o seu ambiente de desenvolvimento local.
 2. Configure um servidor web local (por exemplo, XAMPP, WAMP, MAMP) e certifique-se de que o PHP esteja instalado.
-3. Importe o arquivo de banco de dados `database.sql` para criar a tabela `users`.
-4. Configure as credenciais do banco de dados no arquivo `auth.php`.
-5. Inicie o servidor web e acesse o projeto através do navegador.
+3. Configure as credenciais do banco de dados no arquivo `basico.php`.
+4. Inicie o servidor web e acesse o projeto através do navegador.
 
 ## Como Utilizar
 
-1. Acesse a página `index.php` no navegador.
+1. Acesse a página `login.php` no navegador.
 2. Insira o email e senha cadastrados.
 3. Após a autenticação bem-sucedida, você será redirecionado para a página de dashboard.
 4. Para sair, clique no botão "Logout" na página de dashboard.
